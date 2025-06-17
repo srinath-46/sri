@@ -2,7 +2,12 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
+import os
 import joblib
+
+if not os.path.exists("loan_default_model.pkl"):
+    raise FileNotFoundError("loan_default_model.pkl not found. Please train the model first.")
+
 model = joblib.load("loan_default_model.pkl")
 
 
