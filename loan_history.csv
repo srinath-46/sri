@@ -1,0 +1,4 @@
+customer_id,loan_amount,term,loan_status
+1,200000,36,0
+2,150000,24,1
+3,100000,12,0
