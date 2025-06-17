@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
+import joblib
+model = joblib.load("loan_default_model.pkl")
+
 
 # Load model
 model = joblib.load("loan_default_model.pkl")
