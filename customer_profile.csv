@@ -1,0 +1,4 @@
+customer_id,age,income,dependents,education,marital_status,credit_score
+1,30,50000,1,Graduate,Married,720
+2,45,60000,0,Not Graduate,Single,650
+3,28,30000,2,Graduate,Single,600
